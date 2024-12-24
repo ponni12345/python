@@ -1,0 +1,10 @@
+sample_string="hello,world!"
+iterable=["apple","banana","cherry"]
+print("/".join(iterable))
+print(sample_string.ljust(20,"-"))
+print(sample_string.lower())
+a="kfjd,slkdaf,lasdfk"
+print(a.partition(","))
+print(a.split("k"))
+multiline_string="hello\nworld\n!"
+print(multiline_string.splitlines())
